@@ -16,9 +16,9 @@ Built for the Gnani AI GreatIndianAIInternshipChallenge.
 
 ```text
 Owner  : "Chawal mein gap kyun hai?"
-Voicox : Rice is 17 units short: 194 expected, 177 counted.
-         One possible cause is that no sales were recorded on 11 October.
-         These are possible explanations, not accusations.
+Voicox : Chawal mein 17 unit kam hai. Sabse pehla sanket: 1 din Chawal ki bikri darj nahi hai (11
+         Oct). Agla kadam: Un dinon ki bill book ya billing app dekhiye, aur sales export mein add
+         kijiye. Yeh sirf sanket hain, nishkarsh nahi. Pehle records aur stock dobara check kijiye.
 ```
 
 <!-- Add your own links, then delete this comment -->
