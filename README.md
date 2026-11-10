@@ -205,10 +205,6 @@ python benchmark/run_benchmark.py --text-only  # typed questions only (free)
 
 **Add a question type:** add the intent to the schema and validator whitelist, write the extraction rules in `backend/extractor.py`, implement the query and its wording, then add tests.
 
-## License
-
-MIT. See `LICENSE`.
-
 ## Acknowledgements
 
 - [Gnani.ai](https://www.gnani.ai) for Prisma (speech-to-text) and Timbre (text-to-speech)
