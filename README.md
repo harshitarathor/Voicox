@@ -135,14 +135,47 @@ curl -X POST http://127.0.0.1:8000/ask \
 ## Project layout
 
 ```text
+## Project Structure
+
+```text
 Voicox/
-├── backend/        FastAPI app, rule-based extractor, validator, query engine, phrases
-├── frontend/       Mobile-first web UI
-├── benchmark/      30 test questions, scoring script and results
-├── tests/          pytest suite
-├── docs/           API details
-├── smoke_test_gnani.py
+├── backend/
+│   ├── data/               Synthetic shop data (sales, purchases, inventory)
+│   ├── config.py           Settings and environment variables
+│   ├── engine.py           DuckDB query engine
+│   ├── extractor.py        Rule-based question extractor
+│   ├── gnani.py            Gnani Prisma / Timbre client
+│   ├── insights.py         Stock-gap explanations
+│   ├── main.py             FastAPI app and routes
+│   ├── phrases.py          Reply wording for each language
+│   ├── pipeline.py         Ties extract, validate, compute and respond together
+│   ├── schemas.py          Request and query schemas
+│   └── validator.py        Allowed question types, refusals, clarifications
+├── frontend/
+│   ├── assets/             Images
+│   ├── css/                Styles
+│   ├── js/
+│   │   ├── pages/          Ask, Sales, Stock, Detective, Quality, Data screens
+│   │   ├── vendor/         Third-party libraries
+│   │   ├── answer.js
+│   │   ├── app.js
+│   │   ├── core.js
+│   │   ├── i18n.js         Language strings
+│   │   ├── registry.js
+│   │   └── voice.js        Microphone and playback
+│   └── index.html
+├── benchmark/
+│   ├── audio/              Recorded test questions
+│   ├── questions.csv       The 30 test questions
+│   ├── record_audio.py     Records the audio samples
+│   ├── run_benchmark.py    Scoring script
+│   ├── results.json
+│   ├── results.md          Per-question results
+│   └── transcripts.json
+├── tests/                  pytest suite
+├── smoke_test_gnani.py     Checks your Gnani credentials
 ├── .env.example
+├── pytest.ini
 └── requirements.txt
 ```
 
