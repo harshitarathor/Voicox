@@ -1,0 +1,82 @@
+{
+ "hinglish/h01.wav": {
+  "sha1": "84482f25a1e5a63a75ef115add15ae909a04e628",
+  "text": "pichle mahine sabse zyada kya bikka?"
+ },
+ "hinglish/h02.wav": {
+  "sha1": "e1fddecc158c937f3159059f41f0f8d0cfc84218",
+  "text": "Is hafte ki bikri kitni hui?"
+ },
+ "hinglish/h04.wav": {
+  "sha1": "1a64fc92b027ec4ec4b793b89bc7955aea7df622",
+  "text": "dooh ki bikri pichle mahine kitni thi?"
+ },
+ "hinglish/h05.wav": {
+  "sha1": "9f2d337c3d510b106c2644e736ea3af8aa601511",
+  "text": "chaval ka stock kitna hai?"
+ },
+ "hinglish/h06.wav": {
+  "sha1": "ef61f561d967e19cbb52c95d9e015de5dcafa3f8",
+  "text": "Kaun sa saman kam bach gaya hai?"
+ },
+ "hinglish/h08.wav": {
+  "sha1": "aca4b54d08b41dcceed516d6820d0c18b4bfd996",
+  "text": "Chaval mein gap kyun hai?"
+ },
+ "hinglish/h10.wav": {
+  "sha1": "d3f7505809a8842c1562d5e34d2f7b3451dfed2d",
+  "text": "pichle hafte aur is hafte ki bikri compare karo."
+ },
+ "hinglish/h12.wav": {
+  "sha1": "1a64df9b7b77fe8f633c927bacd5352486ab7e65",
+  "text": "Is item mein sabse zyada damage hua."
+ },
+ "hindi/d01.wav": {
+  "sha1": "d91f44ef39279c94d90e593ff9d6700babfa6446",
+  "text": "pichle mahine sabse zyada kya bikka?"
+ },
+ "hindi/d02.wav": {
+  "sha1": "e1e67931a67a00dca370ba0f8371947af3239645",
+  "text": "is hafte ki bikri kitni hui?"
+ },
+ "hindi/d03.wav": {
+  "sha1": "b0a4d7564e6c8ff53cf813ff53929c4f0683af96",
+  "text": "chaval mein gap kyun hai?"
+ },
+ "hindi/d04.wav": {
+  "sha1": "1a62d377cc076716c57eb1586b1220090f6510c6",
+  "text": "Kaun sa saman kam bach gaya hai?"
+ },
+ "english/e01.wav": {
+  "sha1": "5b4e40c5f87bf451baf98f09e55b6169d4c9b14e",
+  "text": "Which product sold the most last month?"
+ },
+ "english/e02.wav": {
+  "sha1": "18d36d303c527c69241624332914e9fb8d76ee6f",
+  "text": "What were the total sales this week?"
+ },
+ "english/e03.wav": {
+  "sha1": "09ef583d5ef9d0a6771715c4310213794dcd9d5d",
+  "text": "Wise rice shot."
+ },
+ "english/e04.wav": {
+  "sha1": "da153a46ef767b69ca133a2f04387c73e787f844",
+  "text": "Show me low cost items."
+ },
+ "noisy/n01.wav": {
+  "sha1": "cf779dab93371751ada0882f2e331b025f2d5fe9",
+  "text": "sabse zyada bikne wala item kaun sa hai?"
+ },
+ "noisy/n02.wav": {
+  "sha1": "c847fb08ed1a722b9b6cf3b1f87302d63097e822",
+  "text": "tel mein gap kyun hai?"
+ },
+ "noisy/n03.wav": {
+  "sha1": "e3231d39c4bd2ce945aa2372a2e9771d7c3c965c",
+  "text": "low stock wale item dikhao."
+ },
+ "noisy/n04.wav": {
+  "sha1": "402914d1e8e218fe2dadcfcf85e0203c3946a5a1",
+  "text": "Is hafte ki bikri pichle hafte se kitni badli?"
+ }
+}

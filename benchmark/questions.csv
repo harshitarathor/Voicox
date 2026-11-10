@@ -1,0 +1,31 @@
+id,group,question,roman,record,check
+h01,hinglish,Pichle mahine sabse zyada kya bika,,yes,top:quantity:last_month
+h02,hinglish,Is hafte ki bikri kitni hui,,yes,total:revenue:this_week
+h03,hinglish,Kal kitna sales hua,,no,total:revenue:yesterday
+h04,hinglish,Doodh ki bikri pichle mahine kitni thi,,yes,total:revenue:last_month:Doodh
+h05,hinglish,Chawal ka stock kitna hai,,yes,stock:Chawal
+h06,hinglish,Kaun sa saman kam bach gaya hai,,yes,low:all
+h07,hinglish,Stock mein kya mismatch hai,,no,gaps:all
+h08,hinglish,Chawal mein gap kyun hai,,yes,why:Chawal
+h09,hinglish,Doodh mein gap kyun hai,,no,why:Doodh
+h10,hinglish,Pichle hafte aur is hafte ki bikri compare karo,,yes,compare:revenue:last_week:this_week
+h11,hinglish,Sabse kam bikne wala product kaun sa hai,,no,top:quantity:last_30_days:asc
+h12,hinglish,Kis item mein sabse zyada damage hua,,yes,wastage:all
+h13,hinglish,Aaj kitni bikri hui,,no,total:revenue:today
+h14,hinglish,Is mahine ka revenue batao,,no,total:revenue:this_month
+d01,hindi,पिछले महीने सबसे ज्यादा क्या बिका,pichle mahine sabse zyada kya bika,yes,top:quantity:last_month
+d02,hindi,इस हफ्ते की बिक्री कितनी हुई,is hafte ki bikri kitni hui,yes,total:revenue:this_week
+d03,hindi,चावल में गैप क्यों है,chawal mein gap kyun hai,yes,why:Chawal
+d04,hindi,कौन सा सामान कम बचा है,kaun sa saman kam bacha hai,yes,low:all
+d05,hindi,दूध की बिक्री कितनी हुई,doodh ki bikri kitni hui,no,total:revenue:last_30_days:Doodh
+e01,english,Which product sold the most last month,,yes,top:quantity:last_month
+e02,english,What were the total sales this week,,yes,total:revenue:this_week
+e03,english,Why is rice short,,yes,why:Chawal
+e04,english,Show me low stock items,,yes,low:all
+e05,english,Compare this week with last week,,no,compare:revenue:this_week:last_week
+n01,noisy,Sabse zyada bikne wala item kaun sa hai,,yes,top:quantity:last_30_days
+n02,noisy,Tel mein gap kyun hai,,yes,why:Tel
+n03,noisy,Low stock wale items dikhao,,yes,low:all
+n04,noisy,Is hafte ki bikri pichle hafte se kitni badli,,yes,compare:revenue:this_week:last_week
+n05,noisy,Cheeni ka stock kitna hai,,no,stock:Cheeni
+n06,noisy,Pichle hafte ki total bikri batao,,no,total:revenue:last_week

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+duckdb
+pandas
+numpy
+pydantic
+python-multipart
+httpx
+python-dotenv
+pytest

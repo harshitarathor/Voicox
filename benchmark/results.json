@@ -1,0 +1,28 @@
+{
+  "n_questions": 30,
+  "n_audio": 20,
+  "speech_accuracy": 1.0,
+  "query_accuracy": 0.9333,
+  "answer_accuracy": 0.9333,
+  "by_language": {
+    "Hinglish": 1.0,
+    "Hindi": 1.0,
+    "English": 0.6,
+    "Noisy": 1.0
+  },
+  "failures": [
+    {
+      "question": "Why is rice short",
+      "heard": "Wise rice shot.",
+      "problem": "app said: I did not understand that question. Try asking: 'Which product sold the most last month?'"
+    },
+    {
+      "question": "Show me low stock items",
+      "heard": "Show me low cost items.",
+      "problem": "app said: I did not understand that question. Try asking: 'Which product sold the most last month?'"
+    }
+  ],
+  "measured_on": "2026-11-10",
+  "method": "Speech = Prisma transcript at least 80% like the spoken question (recorded files only). Query = intent, metric, period and product all right. Answer = the figures equal those computed directly from the raw CSV files. Questions without a recording are tested as typed text.",
+  "audio_notes": []
+}

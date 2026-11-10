@@ -1,0 +1,11 @@
+
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+smoke_test_output/
+.vscode/
