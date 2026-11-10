@@ -23,7 +23,6 @@ Voicox : Rice is 17 units short: 194 expected, 177 counted.
 
 <!-- Add your own links, then delete this comment -->
 - Demo video: _add link here_
-- Screenshot: _add `docs/demo.gif` here_
 
 ## The problem
 
