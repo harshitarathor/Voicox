@@ -22,7 +22,7 @@ Voicox : Chawal mein 17 unit kam hai. Sabse pehla sanket: 1 din Chawal ki bikri 
 ```
 
 <!-- Add your own links, then delete this comment -->
-- Demo video: _add link here_
+- Demo video: [Watch on YouTube](https://youtu.be/YOUR_VIDEO_ID)
 
 ## The problem
 
