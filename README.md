@@ -11,6 +11,7 @@ Ask a question about your shop in Hindi, Hinglish or English. Voicox works out t
 ![Benchmark](https://img.shields.io/badge/benchmark-28%2F30%20(93%25)-blue)
 
 Built for the Gnani AI Great Indian AI Internship Challenge.
+
 **One-page pitch:** [PITCH.md](PITCH.md)
 
 ## Demo
