@@ -130,17 +130,16 @@ curl -X POST http://127.0.0.1:8000/ask \
   -d '{"text": "Chawal ka stock kitna hai", "lang": "hn"}'
 ```
 
-`lang` can be `en`, `hi` or `hn` (Hinglish, the default). See the full list of routes and reply fields in [docs/API.md](docs/API.md).
+`Once the app is running, open `http://127.0.0.1:8000` in your browser. The interactive API docs are at `http://127.0.0.1:8000/docs`.
 
 ## Project layout
 
 ```text
 ## Project Structure
 
-```text
 Voicox/
 ├── backend/
-│   ├── data/               Synthetic shop data (sales, purchases, inventory)
+│   ├── data/               Synthetic shop data and the script that generates it
 │   ├── config.py           Settings and environment variables
 │   ├── engine.py           DuckDB query engine
 │   ├── extractor.py        Rule-based question extractor
@@ -148,20 +147,20 @@ Voicox/
 │   ├── insights.py         Stock-gap explanations
 │   ├── main.py             FastAPI app and routes
 │   ├── phrases.py          Reply wording for each language
-│   ├── pipeline.py         Ties extract, validate, compute and respond together
+│   ├── pipeline.py         Loads and cleans the raw CSV data
 │   ├── schemas.py          Request and query schemas
 │   └── validator.py        Allowed question types, refusals, clarifications
 ├── frontend/
 │   ├── assets/             Images
 │   ├── css/                Styles
 │   ├── js/
-│   │   ├── pages/          Ask, Sales, Stock, Detective, Quality, Data screens
-│   │   ├── vendor/         Third-party libraries
-│   │   ├── answer.js
-│   │   ├── app.js
-│   │   ├── core.js
+│   │   ├── pages/          Ask, Sales, Stock, Detective, Data and Reliability screens
+│   │   ├── vendor/         Third-party libraries (Plotly)
+│   │   ├── answer.js       Answer card
+│   │   ├── app.js          Navigation and start-up
+│   │   ├── core.js         Shared helpers and charts
 │   │   ├── i18n.js         Language strings
-│   │   ├── registry.js
+│   │   ├── registry.js     Page registry
 │   │   └── voice.js        Microphone and playback
 │   └── index.html
 ├── benchmark/
@@ -173,6 +172,7 @@ Voicox/
 │   ├── results.md          Per-question results
 │   └── transcripts.json
 ├── tests/                  pytest suite
+├── PITCH.md                One-page solution pitch
 ├── smoke_test_gnani.py     Checks your Gnani credentials
 ├── .env.example
 ├── pytest.ini
