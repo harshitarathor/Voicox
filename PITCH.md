@@ -47,15 +47,14 @@ Many billing and ledger apps are screen-based: the owner still has to find and r
 
 ## Status and roadmap
 
-Voicox is a working prototype running locally on synthetic data, with a mobile-first layout for phone screens. It isn't hosted publicly because an open demo could expose the Gnani API key; login and usage limits come first.
+Voicox is a working prototype running locally on synthetic data, with a layout that fits a phone screen.  It isn't hosted publicly yet; login and usage limits come first.
 
 Next steps:
 
-1. Validate with real shop records.
-2. Make records easy to capture digitally (for example voice entry or photo import), so shops that start on paper can use it.
-3. Integrate real billing, purchase and credit records.
-4. Add more Indian languages through language-specific phrase sets.
-5. Deploy a hosted version with login and usage limits.
+1. Validate with real shop records and integrate real billing, purchase and credit data.
+2. Make records easy to capture digitally (voice entry or photo import), so shops that start on paper can use it.
+3. Add more Indian languages, and deploy a hosted version..
 
 **Tech stack:** Python, FastAPI, DuckDB, Gnani Prisma, Gnani Timbre.
+
 **Acknowledgement:** Built with assistance from Claude (Anthropic).
