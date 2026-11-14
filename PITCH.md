@@ -53,7 +53,7 @@ Next steps:
 
 1. Validate with real shop records and integrate real billing, purchase and credit data.
 2. Make records easy to capture digitally (voice entry or photo import), so shops that start on paper can use it.
-3. Add more Indian languages, and deploy a hosted version..
+3. Add more Indian languages, and deploy a hosted version.
 
 **Tech stack:** Python, FastAPI, DuckDB, Gnani Prisma, Gnani Timbre.
 
