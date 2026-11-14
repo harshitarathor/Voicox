@@ -20,7 +20,6 @@ Voicox : Chawal mein 17 unit kam hai. Sabse pehla sanket: 1 din Chawal ki bikri 
          Oct). Agla kadam: Un dinon ki bill book ya billing app dekhiye, aur sales export mein add
          kijiye. Yeh sirf sanket hain, nishkarsh nahi. Pehle records aur stock dobara check kijiye.
 ```
-
 <!-- Add your own links, then delete this comment -->
 - Demo video: [Watch on YouTube](https://youtu.be/lSI4mE_Ag9o)
 
@@ -110,7 +109,7 @@ cp .env.example .env             # Windows: copy .env.example .env
 uvicorn backend.main:app --reload
 ```
 
-Open <http://127.0.0.1:8000> for the app, or <http://127.0.0.1:8000/docs> for the interactive API docs.
+Once the app is running, open `http://127.0.0.1:8000` in your browser. The interactive API docs are at `http://127.0.0.1:8000/docs`.
 
 To check that your Gnani credentials work:
 
@@ -129,8 +128,7 @@ curl -X POST http://127.0.0.1:8000/ask \
   -H "Content-Type: application/json" \
   -d '{"text": "Chawal ka stock kitna hai", "lang": "hn"}'
 ```
-
-`Once the app is running, open `http://127.0.0.1:8000` in your browser. The interactive API docs are at `http://127.0.0.1:8000/docs`.
+`lang` can be `en`, `hi` or `hn` (Hinglish, the default).
 
 ## Project layout
 
